@@ -1273,8 +1273,8 @@ template < int DIM > void Collide::collisions_one_subcell()
           memory->grow(subcell_first,npmax,"collide:subcell_first");
           memory->grow(subcell_mostrecent,npmax,"collide:subcell_mostrecent");
           memory->grow(subcell_IDlist,npmax,"collide:subcell_IDlist");
-	  memory->grow(subcell_IDlist,npmax,"collide:subcell_ID_ilist");
-	  memory->grow(subcell_IDlist,npmax,"collide:subcell_ID_jlist");
+	  	  memory->grow(subcell_IDlist,npmax,"collide:subcell_ID_ilist");
+	  	  memory->grow(subcell_IDlist,npmax,"collide:subcell_ID_jlist");
           memory->grow(subcell_IDlist,npmax,"collide:subcell_ID_klist");
           memory->grow(subcell_count,npmax,"collide:subcell_count");
           memory->grow(neighbor_cells,npmax,"collide:neighbor_cells");  
